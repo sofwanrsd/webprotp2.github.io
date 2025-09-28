@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title> digunakan untuk memberikan judul halaman web. -->
+    <title>Profil Pribadi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <h1> digunakan untuk judul utama halaman -->
+    <h1>Profil Pribadi</h1>
+
+    <!-- <h2> digunakan untuk sub-judul dari <h1> -->
+    <h2>Tentang Saya</h2>
+    <!-- <p> digunakan untuk menampilkan teks dalam bentuk paragraf -->
+    <p>Halo, Izin Perkenalkan diri saya!</p>
+
+    <!-- <table> digunakan untuk membuat tabel -->
+    <table>
+      <!-- <tr> digunakan untuk membuat baris pada tabel -->
+      <tr>
+        <!-- <th> digunakan untuk sel judul (header) tabel -->
+        <th>Nama</th>
+        <th>NIM</th>
+        <th>Kelas</th>
+      </tr>
+      <tr>
+        <!-- <td> digunakan untuk membuat sel data pada tabel -->
+        <td>Sofwan Rosidi</td>
+        <td>103032330045</td>
+        <td>IT-47-02</td>
+      </tr>
+    </table>
+
+    <!-- <div> digunakan sebagai wadah untuk mengelompokkan suatu elemen -->
+    <div class="profil-all">
+      <div class="profil-foto">
+        <h3>Foto Profil</h3>
+        <!-- <img> digunakan untuk menampilkan gambar -->
+        <img src="foto.png" width="60px" height="60px" alt="Foto profil" />
+      </div>
+
+      <div class="profil-video">
+        <!-- <h3> digunakan untuk sub-judul dari <h2> -->
+        <h3>Video Perkenalkan</h3>
+        <!-- <video> digunakan untuk menampilkan media video -->
+        <video width="250" controls>
+          <!-- <source> digunakan untuk mendefinisikan sumber media (video/audio). Tag ini biasanya ditulis di dalam <video> atau <audio>. Tujuannya agar browser bisa memilih format file yang sesuai. -->
+          <source src="video.mp4" type="video/mp4" />
+          Errrorrrrr
+        </video>
+      </div>
+    </div>
+
+    <!-- <br> digunakan untuk membuat baris baru (line break) pada teks. Tag ini bersifat self-closing (tidak punya pasangan penutup). -->
+    <br />
+    <h2>Hubungi saya</h2>
+    <!-- <form> digunakan untuk membuat formulir input data -->
+    <form>
+      <!-- <label> digunakan untuk memberi label atau keterangan pada elemen form (seperti <input>, <textarea>, <select>). -->
+      <label>Nama :</label><br />
+      <!-- <input> digunakan untuk menerima masukan data singkat (teks, email, angka, dll) -->
+      <input type="text" /><br />
+
+      <label>Email :</label><br />
+      <input type="email" /><br />
+
+      <label>Isi Pesan :</label><br />
+      <!-- <textarea> digunakan untuk menerima masukan teks panjang -->
+      <textarea rows="3" cols="40"></textarea> <br />
+
+      <!-- <button> digunakan untuk membuat tombol interaktif di halaman web. -->
+      <button type="submit">Submit</button>
+    </form>
+    <br />
+
+    <h2>My Social Media?</h2>
+    <!-- <a> (anchor) digunakan untuk membuat hyperlink/tautan -->
+    <a href="https://linkedin.com" target="_blank">LinkedIn</a> |
+    <a href="https://github.com" target="_blank">GitHub</a> |
+    <a href="https://twitter.com" target="_blank">Twitter</a>
+  </body>
+</html>
